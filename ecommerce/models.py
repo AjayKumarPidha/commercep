@@ -15,6 +15,7 @@ class mindset(models.Model):
     heading=models.CharField(max_length=100,blank=True,null=True)
     heading=models.CharField(max_length=100,blank=True,null=True)
     heading=models.CharField(max_length=100,blank=True,null=True)
+    veera=models.CharField(max_length=200,blank=True,null=True)
     
     description1=models.CharField(max_length=100,blank=True,null=True)
     description2=models.CharField(max_length=100,blank=True,null=True)
