@@ -7,6 +7,8 @@ from django.db import models
 class mindset(models.Model):
     name=models.CharField(max_length=100,blank=True,null=True)
     date=models.DateField(auto_created=True)
+    father=models.CharField(max_length=100,blank=True,null=True)
+    mother=models.CharField(max_length=100,blank=True,null=True)
     heading=models.CharField(max_length=100,blank=True,null=True)
     heading=models.CharField(max_length=100,blank=True,null=True)
     heading=models.CharField(max_length=100,blank=True,null=True)
@@ -18,3 +20,5 @@ class mindset(models.Model):
     description3=models.CharField(max_length=100,blank=True,null=True)
     description4=models.CharField(max_length=100,blank=True,null=True)
     description5=models.CharField(max_length=100,blank=True,null=True)
+
+    
